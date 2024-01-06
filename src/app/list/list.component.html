@@ -1,0 +1,13 @@
+<h3>Listing Page</h3>
+<table>
+    <tr>
+      <th>Category</th>
+      <th>Store Name</th>
+      <th>Address</th>
+    </tr>
+    <tr *ngFor="let data of tableData">
+      <td>{{data.category}}</td>
+      <td>{{data.storeName}}</td>
+      <td>{{data.address}}</td>
+    </tr>
+  </table>
